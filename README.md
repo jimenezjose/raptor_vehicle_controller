@@ -1,7 +1,7 @@
 # raptor_vehicle_controller
 Control the New Eagle Raptor ECU using a game controller.
 
-Orgaization:
+### Orgaization:
 * Raptor
 * Linux set up with ROS2
 * CAN commincation between linux computer and raptor
@@ -11,7 +11,7 @@ Orgaization:
 * Ubuntu 20.04
 * Galactic
 
-Main objective:
+### Main objective:
 Write a ROS2 node that subscribes to a joystick data topic and transforms that data as Raptor messages sent through CAN.
 
 * Joystick data will be published to a `\joy` topic. (problem solved using ROS2 generic joytsick driver).
