@@ -14,5 +14,5 @@ Orgaization:
 Main objective:
 Write a ROS2 node that subscribes to a joystick data topic and transforms that data as Raptor messages sent through CAN.
 
-Joystick data will be published to a `\joy` topic. (problem solved using ROS2 generic joytsick driver).
-Raptor interface to receive CAN messages. (problem solved using ROS2 raptor driver).
+* Joystick data will be published to a `\joy` topic. (problem solved using ROS2 generic joytsick driver).
+* Raptor interface to receive CAN messages. (problem solved using ROS2 raptor driver).
