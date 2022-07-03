@@ -14,5 +14,5 @@ Control the New Eagle Raptor ECU using a game controller.
 ### Main objective:
 Write a ROS2 node that subscribes to a joystick data topic and transforms that data as Raptor messages sent through CAN.
 
-* Joystick data will be published to a `\joy` topic. (problem solved using ROS2 generic joytsick driver).
-* Raptor interface to receive CAN messages. (problem solved using ROS2 raptor driver).
+* Receive Joystick data and publish it to a topic. (problem solved using [ROS2 generic joytsick driver](https://github.com/ros-drivers/joystick_drivers/tree/ros2)).
+* Define/implement interface for ROS2 to Raptor CAN communication. (problem solved using [ROS2 Raptor driver](https://github.com/NewEagleRaptor/raptor-dbw-ros))
