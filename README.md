@@ -19,4 +19,4 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
 
 ### Development:
 * Run Raptor Joystick demo.
-  * Install ROS2 Kvaser [interface](https://github.com/astuff/kvaser_interface/tree/ros2_master)
+  * Install [ROS2 Kvaser interface](https://github.com/astuff/kvaser_interface/tree/ros2_master)
