@@ -16,3 +16,7 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
 
 * Receive Joystick data and publish it to a topic. (problem solved using [ROS2 generic joytsick driver](https://github.com/ros-drivers/joystick_drivers/tree/ros2)).
 * Define/implement interface for ROS2 to Raptor CAN communication. (problem solved using [ROS2 Raptor driver](https://github.com/NewEagleRaptor/raptor-dbw-ros))
+
+### Development:
+* Run Raptor Joystick demo.
+  * Install ROS2 Kvaser [interface](https://github.com/astuff/kvaser_interface/tree/ros2_master)
