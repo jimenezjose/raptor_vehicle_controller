@@ -10,7 +10,7 @@ Control the New Eagle Raptor ECU using a game controller.
 * Using an Xbox One wired controller.
 * Ubuntu 20.04
 * Galactic
-* Jetson Nano
+* Jetson Nano -> Does not support CAN.
 
 ### Main objective:
 Write a ROS2 node that subscribes to a joystick data topic and transforms that data as Raptor messages sent through CAN.
