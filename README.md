@@ -29,7 +29,7 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
 ### Notes:
 * `ls /opt/ros/galactic/include/` contains all packages installed into the ros distro.
 * Download package directly into ros distro `sudo apt install ros-$ROS_DISTRO-<package-name>`
-* setup.<ext>: first invokes the local_setup.<ext>
+* `setup.<ext>`: first invokes the local_setup.<ext>
 * `ls /lib/modules` Will list out the linux kernels present on your machine.
 * `sudo apt install ros-$ROS_DISTRO-<package-name>`
 * `package.xml` file contains a set of dependencies. The dependencies in this file are generally referred to as “rosdep keys”
