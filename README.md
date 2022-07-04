@@ -27,6 +27,7 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
      * If you are getting issues on a backup kernel it should be fine if the kvaser software correctly gets installed on actual kernel.
     
 ### Notes:
+* setup.<ext>: first invokes the local_setup.<ext>
 * `ls /lib/modules` Will list out the linux kernels present on your machine.
 * `sudo apt install ros-$ROS_DISTRO-<package-name>`
  * `uname -r` : Find Linux kernel version
