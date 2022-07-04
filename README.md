@@ -32,7 +32,9 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
 * setup.<ext>: first invokes the local_setup.<ext>
 * `ls /lib/modules` Will list out the linux kernels present on your machine.
 * `sudo apt install ros-$ROS_DISTRO-<package-name>`
- * `uname -r` : Find Linux kernel version
+* `package.xml` file contains a set of dependencies. The dependencies in this file are generally referred to as “rosdep keys”
+ 
+* `uname -r` : Find Linux kernel version
  * It is common to have multiple kerneles present on your machine in case one breaks you can revert to an older kernel.
 * (DKMS) Dynamic Kernel Module Support is a program/framework that enables generating Linux kernel modules whose sources generally reside outside the kernel source tree.
 * Personal Package Archives (PPAs) are software repositories designed for Ubuntu users and are easier to install than other third-party repositories.
