@@ -29,5 +29,6 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
 ### Notes:
 * `/lib/modules` Will list out the linux kernels present on your machine.
  * `uname -r` : Find Linux kernel version
+ * It is common to have multiple kerneles present on your machine in case one breaks you can revert to an older kernel.
 * (DKMS) Dynamic Kernel Module Support is a program/framework that enables generating Linux kernel modules whose sources generally reside outside the kernel source tree.
 * Personal Package Archives (PPAs) are software repositories designed for Ubuntu users and are easier to install than other third-party repositories.
