@@ -27,7 +27,7 @@ Write a ROS2 node that subscribes to a joystick data topic and transforms that d
      * If you are getting issues on a backup kernel it should be fine if the kvaser software correctly gets installed on actual kernel.
     
 ### Notes:
-* `/lib/modules` Will list out the linux kernels present on your machine.
+* `ls /lib/modules` Will list out the linux kernels present on your machine.
  * `uname -r` : Find Linux kernel version
  * It is common to have multiple kerneles present on your machine in case one breaks you can revert to an older kernel.
 * (DKMS) Dynamic Kernel Module Support is a program/framework that enables generating Linux kernel modules whose sources generally reside outside the kernel source tree.
