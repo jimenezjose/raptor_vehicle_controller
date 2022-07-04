@@ -11,6 +11,7 @@ Control the New Eagle Raptor ECU using a game controller.
 * Ubuntu 20.04
 * Galactic
 * Jetson Nano -> Does not support CAN.
+* `sudo apt install ros-galactic-joy-linux` Changed joy to joy_linux for controller support in raptor.
 
 ### Main objective:
 Write a ROS2 node that subscribes to a joystick data topic and transforms that data as Raptor messages sent through CAN.
