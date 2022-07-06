@@ -10,7 +10,7 @@ Control the New Eagle Raptor ECU using a game controller.
 * Using an Xbox One wired controller.
 * Ubuntu 20.04
 * Galactic
-* Jetson Nano -> Does not support CAN.
+* Jetson Nano
 * `sudo apt install ros-galactic-joy-linux` Changed joy to joy_linux for controller support in raptor.
 
 ### Main objective:
